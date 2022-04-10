@@ -9,7 +9,7 @@ namespace SnakeAndLadderProblems
     public class SnakeAndLadderGame
     {
         const int NO_PLAY = 0, SNAKE = 1, LADDER = 2;
-        int position = 0, option; 
+        int position = 0, count = 0; 
         public int DieRoll()
         {
             Random random = new Random();
@@ -44,10 +44,11 @@ namespace SnakeAndLadderProblems
                         break;
                 }
 
+
+                Console.WriteLine("Position is:" + this.position);
+                count++;
             }
-                Console.WriteLine("Position is" + this.position);
-           
-            
+            Console.WriteLine("The number of times the dice played:" + count++);
         }
     }
     
