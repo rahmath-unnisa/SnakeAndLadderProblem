@@ -5,5 +5,5 @@ SnakeAndLadderGame game = new SnakeAndLadderGame();
 game.DieRoll();
 Console.WriteLine(game.DieRoll());
 game.Player();
-Console.WriteLine(game.Player());
+
 
