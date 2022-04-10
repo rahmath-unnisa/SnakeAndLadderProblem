@@ -44,9 +44,9 @@ namespace SnakeAndLadderProblems
                         break;
                 }
 
-
-                Console.WriteLine("Position is" + this.position);
             }
+                Console.WriteLine("Position is" + this.position);
+           
             
         }
     }
